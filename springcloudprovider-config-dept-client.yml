@@ -36,8 +36,8 @@ info:
   company.name: www.yyg.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
------------------------
-server:
+---
+server: 
   port: 8001
 spring:
   profiles: test
