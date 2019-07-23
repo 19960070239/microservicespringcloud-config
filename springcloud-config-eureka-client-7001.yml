@@ -16,7 +16,7 @@ server:
   port: 7001
 ---
 spring:
-    profiles: dev
+    profiles: test
     application:
         name: springcloud-config-eureka-client-7001
 eureka:
